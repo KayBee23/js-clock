@@ -1,0 +1,23 @@
+#days{
+  margin-top: 4rem;
+  flex-direction:column; 
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.day{
+  padding: 0;
+  text-align: center;
+}
+p{
+  font-size:3rem;
+}
+
+#hour{
+padding: 3rem 0 3rem 0;
+  text-align: center;
+}
+
+.container{
+  justify-content:space-evenly;
+}
