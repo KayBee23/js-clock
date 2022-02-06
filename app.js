@@ -76,7 +76,7 @@ switch (currentDay) {
     document.getElementsByClassName("saturday")[0].style.textShadow =
       " 0 0 20px #34ebd8";
     break;
-  case 7:
+  case 0:
     document.getElementsByClassName("sunday")[0].style.color = "#34ebd8";
     document.getElementsByClassName("sunday")[0].style.textShadow =
       " 0 0 20px #34ebd8";

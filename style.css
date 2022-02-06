@@ -4,15 +4,16 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    
   height: 100%;
   background-color: #222;
   font-family: "Audiowide", cursive;
 }
 .container {
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,26 +21,16 @@ body {
   height: 100vh;
 }
 /* Clock */
-
-span {
-  display: inline-block;
-}
 p {
   text-shadow: 0 0 20px #34ebd8;
   color: #34ebd8;
   font-size: 7em;
   display: inline-block;
 }
-#hour {
-  margin: 0 auto;
-  display: inline-block;
-}
-
 /* Days */
 h1{
   color: rgba(255, 255, 255, 0.1);
   font-size:2.2rem;
-  display: inline-block;
 }
 
 #days{
@@ -51,16 +42,12 @@ h1{
 }
 
 
-.tuesday,
-.wednesday,
-.thursday,
-.friday,
-.saturday,
-.sunday {
+.day {
 padding-left: 2rem;  
 }
 
 button{
+  display: inline-block;
   font-size:2rem;
   background-color: transparent;
   border: none;
