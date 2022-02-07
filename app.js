@@ -54,36 +54,6 @@ let saturday = document.querySelector("#saturday");
 let sunday = document.querySelector("#sunday");
 let mediaQuery = window.matchMedia("(min-width: 1401px)");
 
-switch (currentDay) {
-  case 1:
-    monday.style.color = "#34ebd8";
-    monday.style.textShadow = " 0 0 20px #34ebd8";
-    break;
-  case 2:
-    tuesday.style.color = "#34ebd8";
-    tuesday.style.textShadow = " 0 0 20px #34ebd8";
-    break;
-  case 3:
-    wednesday.style.color = "#34ebd8";
-    wednesday.style.textShadow = " 0 0 20px #34ebd8";
-    break;
-  case 4:
-    thursday.style.color = "#34ebd8";
-    thursday.style.textShadow = " 0 0 20px #34ebd8";
-    break;
-  case 5:
-    friday.style.color = "#34ebd8";
-    friday.style.textShadow = " 0 0 20px #34ebd8";
-    break;
-  case 6:
-    saturday.style.color = "#34ebd8";
-    saturday.style.textShadow = " 0 0 20px #34ebd8";
-    break;
-  case 0:
-    sunday.style.color = "#34ebd8";
-    sunday.style.textShadow = " 0 0 20px #34ebd8";
-    break;
-}    
 
     if (mediaQuery.matches) {
       switch (currentDay) {
