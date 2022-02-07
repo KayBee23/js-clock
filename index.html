@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="mobile.css" media="(max-width:1440px)">
-  <script src="app.js" defer></script>
-  <title>JS Clock</title>
-</head>
-<body onload="displayTime">
-  <div class="container">
-    <div id="days">
-      <span><h1 class="monday day">Monday</h1></span>
-      <span><h1 class="tuesday day">Tuesday</h1></span>
-      <span><h1 class="wednesday day">Wednesday</h1></span>
-      <span><h1 class="thursday day">Thursday</h1></span>
-      <span><h1 class="friday day">Friday</h1></span>
-      <span><h1 class="saturday day">Saturday</h1></span>
-      <span><h1 class="sunday day">Sunday</h1></span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" media="(max-width:520px)">
+    <script src="app.js" defer></script>
+    <title>JS Clock</title>
+  </head>
+  <body onload="displayTime">
+    <div class="container">
+      <div id="days">
+        <span><h1 id="monday" class="day">Monday</h1></span>
+        <span><h1 id="tuesday" class="day">Tuesday</h1></span>
+        <span><h1 id="wednesday" class="day">Wednesday</h1></span>
+        <span><h1 id="thursday" class="day">Thursday</h1></span>
+        <span><h1 id="friday" class="day">Friday</h1></span>
+        <span><h1 id="saturday" class="day">Saturday</h1></span>
+        <span><h1 id="sunday" class="day">Sunday</h1></span>
+      </div>
+      <div data-format="24" id="hour"></div>
+      <div class="format">
+        <span><button data-format="12">12h</button></span>
+        <span><button data-format="24">24h</button></span>
+      </div>
     </div>
-  <div data-format="24" id="hour"></div>
-  <div class="format">
-    <span><button data-format="12">12h</button></span>
-    <span><button data-format="24">24h</button></span>
-  </div>
-</div> 
-</body>
+  </body>
 </html>

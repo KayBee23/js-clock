@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,6 +11,7 @@ body {
   background-color: #222;
   font-family: "Audiowide", cursive;
 }
+
 .container {
   text-align: center;
   display: flex;
@@ -24,35 +24,64 @@ body {
 p {
   text-shadow: 0 0 20px #34ebd8;
   color: #34ebd8;
-  font-size: 7em;
+  font-size: 9em;
   display: inline-block;
 }
 /* Days */
-h1{
+h1 {
   color: rgba(255, 255, 255, 0.1);
-  font-size:2.2rem;
+  font-size: 2.2rem;
 }
 
-#days{
+#days {
   display: flex;
-  justify-content:space-evenly;
-  align-items:center;
+  justify-content: space-evenly;
+  align-items: center;
   height: 6rem;
   padding-bottom: 3rem;
+  text-transform: uppercase;
 }
-
 
 .day {
-padding-left: 2rem;  
+  padding-left: 2rem;
 }
 
-button{
+button {
   display: inline-block;
-  font-size:2rem;
+  font-size: 2rem;
   background-color: transparent;
   border: none;
   color: rgba(255, 255, 255, 0.1);
   cursor: pointer;
   padding: 1rem;
   transition: all 0.2s ease-in-out;
+}
+
+.currentDay {
+  display: inline-block !important;
+  font-size: 5rem;
+  letter-spacing: 1rem;
+}
+
+/* Smaller display */
+@media (max-width: 1700px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .day {
+    padding-left: 0.5rem;
+  }
+
+  p {
+    font-size: 4rem;
+  }
+}
+
+/* Tablet display */
+
+@media (max-width: 1400px) {
+  .day {
+    display: none;
+  }
 }
