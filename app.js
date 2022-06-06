@@ -54,7 +54,7 @@ let saturday = document.querySelector("#saturday");
 let sunday = document.querySelector("#sunday");
 let mediaQuery = window.matchMedia("(min-width: 1401px)");
 
-    
+
     if (mediaQuery.matches) {
       switch (currentDay) {
         case 1:
@@ -95,8 +95,8 @@ let mediaQuery = window.matchMedia("(min-width: 1401px)");
       }
     }
 
-mediaQuery = window.matchMedia("(max-width: 1400px)");
-     
+
+     mediaQuery = window.matchMedia("(max-width: 1400px)");
     if (mediaQuery.matches) {
       switch (currentDay) {
         case 1:

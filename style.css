@@ -59,18 +59,14 @@ button {
 
 .currentDay {
   display: inline-block !important;
-  font-size: 5rem;
   letter-spacing: 1rem;
 }
 
 /* Smaller display */
-@media (max-width: 1700px) {
-  h1 {
-    font-size: 2rem;
-  }
-
+@media (min-width: 1401px) {
   .day {
     padding-left: 0.5rem;
+    font-size: 2.2rem;
   }
 
   p {
@@ -83,5 +79,26 @@ button {
 @media (max-width: 1400px) {
   .day {
     display: none;
+    font-size: 5rem;
   }
+}
+
+#go-back{
+  cursor: pointer;
+  position:fixed;
+  bottom: 10%;
+  left: 1%;
+  z-index: 100;
+  border: none;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  border-radius: 50%;
+  font-size: 1.5em;
+  background-color: rgb(59,185,155);
+  color: #282c34;
 }
