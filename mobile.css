@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .day{
   padding: 0;
@@ -15,3 +16,22 @@ padding: 3rem 0 3rem 0;
   text-align: center;
   letter-spacing:.5rem;
 }
+=======
+
+.day{
+  padding: 0;
+  text-align: center;
+}
+p{
+  font-size:3rem;
+}
+#hour{
+padding: 3rem 0 3rem 0;
+  text-align: center;
+}
+.currentDay{
+  font-size:2.6rem;
+  text-align: center;
+  letter-spacing:.5rem;
+}
+>>>>>>> f5e3376469a5d3448c98e0d79a112e5a37049344
